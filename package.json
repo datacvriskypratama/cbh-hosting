@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://datacvriskypratama/cbh-hosting.git"
   },
   "author": "Tamha Asapil",
   "license": "ISC",
