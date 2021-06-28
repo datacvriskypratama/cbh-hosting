@@ -1,0 +1,19 @@
+{
+  "name": "cbh-hosting",
+  "version": "1.0.0",
+  "description": "cbh-hosting server dengan bot ini!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "node .": "node run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Tamha Asapil",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
