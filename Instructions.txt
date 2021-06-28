@@ -1,0 +1,20 @@
+## What you need:
+
+1. An apache or other webserver (recommend WAMP server for beginners) to run the php.
+2. Autohotkey program to run the "script.ahk" 
+
+I could have compiled the script into an executable file, but virus scanners flag
+autohotkey executables as virusses because it is pretty easy to make a malicious 
+script with autohotkey. So I just added the decompiled ahk script.
+
+## How to set up:
+
+1. unzip this in your webserver root directory.
+2. install or place your minecraft server files in server\ directory.
+3. edit serverstartscript.bat and fix the START line to match your server jar and parameters.
+4. edit inc/include.php file for your server info. (name, admin login, etc.)
+5. Make sure autohotkey script (server\script.ahk) and the webserver are running.
+
+## optional:
+
+- open up the other php files and have a read through, I've added tags what stuff does so it should be easy to figure it all out and change if you want to.
