@@ -1,7 +1,7 @@
 <?php
 $server_name = "KotakCraft";					//Name of your server
 $admin = "Admins name";									//Your name / IGN (just changes color in console for the admin name)
-$server_dir = "server\\spigot-1.16.5.jar";							//Directory of your Minecraft server files. 
+$server_dir = "server\\";							//Directory of your Minecraft server files. 
 $server_log = "logs\\latest.log";					//location of current server log inside server dir
 date_default_timezone_set('Europe/Amsterdam');		//Servers timezone
 $username = "Admin";								//Admin username (note: case sensitive)
