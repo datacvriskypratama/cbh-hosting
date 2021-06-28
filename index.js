@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 client.login("ODU5MDAyMjIzOTc4MzQ4NTQ0.YNmWKQ.CahWS3Wwt_o6sHvlsrV2CrHSzYA");
+client.login("https://cbh-hosting.herokuapp.com/");
 client.on('ready', function () {
     console.log("cbh-hosting");
 });
